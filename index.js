@@ -24,8 +24,6 @@ module.exports = {
      ************* Possible Errors **************
      ********************************************/
 
-    // http://eslint.org/docs/rules/comma-dangle
-    "comma-dangle": 2,
     // http://eslint.org/docs/rules/no-cond-assign
     "no-cond-assign": [2, "always"],
     // http://eslint.org/docs/rules/no-console
@@ -50,8 +48,7 @@ module.exports = {
     "no-ex-assign": 2,
     // http://eslint.org/docs/rules/no-extra-boolean-cast
     "no-extra-boolean-cast": 2,
-    // http://eslint.org/docs/rules/no-extra-semi
-    "no-extra-semi": 2,
+
     // http://eslint.org/docs/rules/no-func-assign
     "no-func-assign": 2,
     // http://eslint.org/docs/rules/no-inner-declarations
@@ -74,22 +71,17 @@ module.exports = {
     "use-isnan": 2,
     // http://eslint.org/docs/rules/valid-typeof
     "valid-typeof": 2,
-    // http://eslint.org/docs/rules/no-unexpected-multiline
-    "no-unexpected-multiline": 2,
 
 
     /********************************************
      ************** Best Practices **************
      ********************************************/
 
-    // http://eslint.org/docs/rules/curly
-    "curly": 2,
     // http://eslint.org/docs/rules/dot-notation
     "dot-notation": [2, {
       "allowKeywords": false
     }],
-    // http://eslint.org/docs/rules/dot-location
-    "dot-location": [2, "property"],
+
     // http://eslint.org/docs/rules/eqeqeq
     "eqeqeq": 2,
     // http://eslint.org/docs/rules/guard-for-in
@@ -108,8 +100,6 @@ module.exports = {
     "no-extra-bind": 2,
     // http://eslint.org/docs/rules/no-fallthrough
     "no-fallthrough": 2,
-    // http://eslint.org/docs/rules/no-floating-decimal
-    "no-floating-decimal": 2,
     // http://eslint.org/docs/rules/no-implied-eval
     "no-implied-eval": 2,
     // http://eslint.org/docs/rules/no-iterator
@@ -118,12 +108,7 @@ module.exports = {
     "no-labels": 2,
     // http://eslint.org/docs/rules/no-lone-blocks
     "no-lone-blocks": 2,
-    // http://eslint.org/docs/rules/no-multi-spaces
-    "no-multi-spaces": [2, {
-      "exceptions": {
-        "Property": true
-      }
-    }],
+
     // http://eslint.org/docs/rules/no-multi-str
     "no-multi-str": 2,
     // http://eslint.org/docs/rules/no-native-reassign
@@ -164,8 +149,6 @@ module.exports = {
     "radix": 2,
     // http://eslint.org/docs/rules/vars-on-top
     "vars-on-top": 2,
-    // http://eslint.org/docs/rules/wrap-iife
-    "wrap-iife": [2, "inside"],
 
 
     /********************************************
@@ -192,115 +175,55 @@ module.exports = {
     // http://eslint.org/docs/rules/no-unused-vars
     "no-unused-vars": 2,
 
-
     /********************************************
      ************* Stylistic Issues *************
      ********************************************/
 
-    // http://eslint.org/docs/rules/array-bracket-spacing
-    "array-bracket-spacing": [2, "never"],
-    // http://eslint.org/docs/rules/block-spacing
-    "block-spacing": [2, "never"],
-    // http://eslint.org/docs/rules/brace-style
-    "brace-style": [2, "1tbs"],
+    //  This rule is needed because prettier doesn't enforce curly braces when a
+    // block contains only one statement
+    // http://eslint.org/docs/rules/curly
+    "curly": 2,
     // http://eslint.org/docs/rules/camelcase
     "camelcase": [2, {
       "properties": "never"
     }],
-    // http://eslint.org/docs/rules/comma-spacing
-    "comma-spacing": [2, {
-      "before": false,
-      "after": true
-    }],
-    // http://eslint.org/docs/rules/comma-style
-    "comma-style": 2,
-    // http://eslint.org/docs/rules/computed-property-spacing
-    "computed-property-spacing": 2,
+
     // http://eslint.org/docs/rules/func-style
     "func-style": [2, "expression"],
-    // http://eslint.org/docs/rules/indent
-    "indent": [2, 2, {
-      "VariableDeclarator": {
-        "var": 2,
-        "let": 2,
-        "const": 3
-      },
-      "SwitchCase": 1
-    }],
-    // http://eslint.org/docs/rules/linebreak-style
-    "linebreak-style": 2,
+
     // http://eslint.org/docs/rules/new-cap
     "new-cap": [2, {
       "capIsNewExceptions": ["YUI"]
     }],
-    // http://eslint.org/docs/rules/new-parens
-    "new-parens": 2,
+
     // http://eslint.org/docs/rules/no-array-constructor
     "no-array-constructor": 2,
     // http://eslint.org/docs/rules/no-lonely-if
     "no-lonely-if": 2,
-    // http://eslint.org/docs/rules/no-mixed-spaces-and-tabs
-    "no-mixed-spaces-and-tabs": 2,
     // http://eslint.org/docs/rules/no-nested-ternary
     "no-nested-ternary": 2,
     // http://eslint.org/docs/rules/no-new-object
     "no-new-object": 2,
-    // http://eslint.org/docs/rules/no-trailing-spaces
-    "no-trailing-spaces": 2,
+
     // http://eslint.org/docs/rules/no-unneeded-ternary
     "no-unneeded-ternary": 2,
-    // http://eslint.org/docs/rules/object-curly-spacing
-    "object-curly-spacing": [2, "never"],
-    // http://eslint.org/docs/rules/operator-linebreak
-    "operator-linebreak": [2, "after"],
-    // http://eslint.org/docs/rules/quote-props
-    "quote-props": [2, "consistent-as-needed", {
-      "keywords": true
-    }],
+
+    // This rule is needed because prettier doesn't convert backticks to double
+    // quotes
     // http://eslint.org/docs/rules/quotes
     "quotes": [2, "double"],
-    // http://eslint.org/docs/rules/semi-spacing
-    "semi-spacing": 2,
-    // http://eslint.org/docs/rules/semi
-    "semi": 2,
-    // http://eslint.org/docs/rules/keyword-spacing
-    "keyword-spacing": 2,
-    // http://eslint.org/docs/rules/space-before-blocks
-    "space-before-blocks": [2, "always"],
-    // http://eslint.org/docs/rules/space-before-function-paren
-    "space-before-function-paren": [2, "always"],
-    // http://eslint.org/docs/rules/space-in-parens
-    "space-in-parens": [2, "never"],
-    // http://eslint.org/docs/rules/space-infix-ops
-    "space-infix-ops": 2,
-    // http://eslint.org/docs/rules/space-unary-ops
-    "space-unary-ops": 2,
-    // http://eslint.org/docs/rules/jsx-quotes
-    "jsx-quotes": [2, "prefer-double"],
     // http://eslint.org/docs/rules/spaced-comment
     "spaced-comment": [2, "always", {
       "exceptions": ["*"]
     }],
-    // https://eslint.org/docs/rules/func-call-spacing
-    "func-call-spacing": [2, "always"],
-
-
-    /********************************************
-     ****************** Legacy ******************
-     ********************************************/
 
     //http://eslint.org/docs/rules/max-len
     "max-len": [2, 100, 2],
-
 
     /********************************************
      ****************** ES6 *********************
      ********************************************/
 
-    // http://eslint.org/docs/rules/arrow-parens
-    "arrow-parens": [2, "always"],
-    // http://eslint.org/docs/rules/arrow-spacing
-    "arrow-spacing": 2,
     // http://eslint.org/docs/rules/no-class-assign
     "no-class-assign": 2,
     // http://eslint.org/docs/rules/no-const-assign
@@ -311,8 +234,6 @@ module.exports = {
     "prefer-const": 2,
     // http://eslint.org/docs/rules/prefer-spread
     "prefer-spread": 2,
-    // http://eslint.org/docs/rules/template-curly-spacing
-    "template-curly-spacing": [2, "never"],
 
 
     /********************************************
