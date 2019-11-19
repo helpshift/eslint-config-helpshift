@@ -240,35 +240,12 @@ module.exports = {
      *************** JSX Specific ***************
      ********************************************/
 
-    // https://www.npmjs.com/package/eslint-plugin-react
-    "react/jsx-closing-bracket-location": [2, {
-      "location": "after-props"
-    }],
-    "react/jsx-curly-spacing": [2, "never"],
     "react/jsx-no-duplicate-props": 2,
     "react/jsx-uses-vars": 2,
     "react/jsx-no-undef": 2,
     "react/jsx-boolean-value": [2, "never"],
-    "react/jsx-closing-tag-location": [2],
-    "react/jsx-equals-spacing": [2, "never"],
-    "react/jsx-first-prop-new-line": [2, "multiline"],
-    "react/jsx-indent": [2, 2],
-    "react/jsx-max-props-per-line": [2, {
-      "maximum": 1,
-      "when": "multiline"
-    }],
     "react/jsx-no-target-blank": [2],
     "react/jsx-pascal-case": [2],
-    "react/jsx-tag-spacing": [2],
-    "react/jsx-wrap-multilines": [2, {
-      "declaration": "parens-new-line",
-      "assignment": "parens-new-line",
-      "return": "parens-new-line",
-      "arrow": "parens-new-line",
-      "condition": "parens-new-line",
-      "logical": "parens-new-line",
-      "prop": "parens-new-line"
-    }],
     "react/no-danger": 2,
     "react/no-did-update-set-state": 2,
     "react/no-unknown-property": 2,
