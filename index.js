@@ -17,30 +17,6 @@ module.exports = {
     "amd": true,
     "es6": true
   },
-  "globals": {
-    "YUI": true,
-    "YUI_config": true,
-    "React": true,
-    "ReactDOM": true,
-    "PropTypes": true,
-    "Reflux": true,
-    "ReactRouter": true,
-    "ReactRouterDOM": true,
-    "Recharts": true,
-    "createReactClass": true,
-    "Mousetrap": true,
-    "buster": true,
-    "HS": true,
-    "HSM": true,
-    "Immutable": true,
-    "Slate": true,
-    "ReactDOMServer": true,
-    "WSCheck": true,
-    "SlatePlainSerializer": true,
-    "SlateHtmlSerializer": true,
-    "SlateReact": true,
-    "connect": true
-  },
   "rules": {
 
 
