@@ -1,0 +1,28 @@
+{
+  "name": "@helpshiftdev/eslint-config",
+  "version": "1.0.0",
+  "description": "Shareable ESLINT config containing rules used at Helpshift.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://gerrit/eslint-config.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "author": {
+    "name": "Helpshift Dev",
+    "email": "dev@helpshift.com",
+    "url": "https://developers.helpshift.com"
+  },
+  "license": "UNLICENSED",
+  "peerDependencies": {
+    "eslint": ">= 5.6.1",
+    "eslint-plugin-react": ">= 7.10.0",
+    "eslint-plugin-react-hooks": ">= 2.1.2"
+  }
+}
