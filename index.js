@@ -1,5 +1,5 @@
 module.exports = {
-  "plugins": ["react", "react-hooks"],
+  "plugins": ["react", "react-hooks", "prettier"],
   "parserOptions": {
     "ecmaVersion": 6,
     "ecmaFeatures": {
@@ -18,6 +18,8 @@ module.exports = {
     "es6": true
   },
   "rules": {
+
+    "prettier/prettier": "error",
 
 
     /********************************************
