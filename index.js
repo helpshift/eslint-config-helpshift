@@ -213,7 +213,9 @@ module.exports = {
     // This rule is needed because prettier doesn't convert backticks to double
     // quotes
     // http://eslint.org/docs/rules/quotes
-    "quotes": [2, "double"],
+    "quotes": [2, "double", {
+      "avoidEscape": true
+    }],
     // http://eslint.org/docs/rules/spaced-comment
     "spaced-comment": [2, "always", {
       "exceptions": ["*"]
