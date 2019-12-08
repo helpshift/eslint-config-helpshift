@@ -8,8 +8,7 @@ module.exports = {
   },
   "settings": {
     "react": {
-      "createClass": "createClass",
-      "version": "15.6.2"
+      "version": "16.10.2"
     }
   },
   "env": {
