@@ -79,9 +79,7 @@ module.exports = {
      ********************************************/
 
     // http://eslint.org/docs/rules/dot-notation
-    "dot-notation": [2, {
-      "allowKeywords": false
-    }],
+    "dot-notation": 2,
 
     // http://eslint.org/docs/rules/eqeqeq
     "eqeqeq": 2,
