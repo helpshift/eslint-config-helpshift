@@ -1,10 +1,8 @@
 module.exports = {
   "plugins": ["react", "react-hooks", "prettier"],
+  "parser": "babel-eslint",
   "parserOptions": {
-    "ecmaVersion": 6,
-    "ecmaFeatures": {
-      "jsx": true
-    }
+    "sourceType": "script"
   },
   "settings": {
     "react": {
@@ -13,8 +11,7 @@ module.exports = {
   },
   "env": {
     "browser": true,
-    "amd": true,
-    "es6": true
+    "amd": true
   },
   "rules": {
 
