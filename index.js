@@ -182,7 +182,8 @@ module.exports = {
     "curly": 2,
     // http://eslint.org/docs/rules/camelcase
     "camelcase": [2, {
-      "properties": "never"
+      "properties": "never",
+      "allow": ["^UNSAFE_"]
     }],
 
     // http://eslint.org/docs/rules/func-style
