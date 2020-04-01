@@ -255,6 +255,7 @@ module.exports = {
     "react/self-closing-comp": 2,
     "react/sort-comp": [2, {
       "order": [
+        "state",
         "displayName",
         "mixins",
         "propTypes",
