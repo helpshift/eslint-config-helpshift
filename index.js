@@ -280,6 +280,10 @@ module.exports = {
         ]
       }
     }],
+    "react/jsx-no-useless-fragment": [2],
+    "react/jsx-fragments": [2],
+    "react/jsx-key": [2, {"checkFragmentShorthand": true}],
+    "react/jsx-uses-react": [2],
 
     // https://www.npmjs.com/package/eslint-plugin-react-hooks
     "react-hooks/rules-of-hooks": "error",
