@@ -135,7 +135,9 @@ module.exports = {
     // http://eslint.org/docs/rules/no-throw-literal
     "no-throw-literal": 2,
     // http://eslint.org/docs/rules/no-unused-expressions
-    "no-unused-expressions": 2,
+    "no-unused-vars": [2, {
+      "ignoreRestSiblings": true
+    }],
     // http://eslint.org/docs/rules/no-useless-call
     "no-useless-call": 2,
     // http://eslint.org/docs/rules/no-void
