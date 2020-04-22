@@ -135,7 +135,9 @@ module.exports = {
     // http://eslint.org/docs/rules/no-throw-literal
     "no-throw-literal": 2,
     // http://eslint.org/docs/rules/no-unused-expressions
-    "no-unused-expressions": 2,
+    "no-unused-vars": [2, {
+      "ignoreRestSiblings": true
+    }],
     // http://eslint.org/docs/rules/no-useless-call
     "no-useless-call": 2,
     // http://eslint.org/docs/rules/no-void
@@ -255,6 +257,7 @@ module.exports = {
     "react/self-closing-comp": 2,
     "react/sort-comp": [2, {
       "order": [
+        "state",
         "displayName",
         "mixins",
         "propTypes",
@@ -279,6 +282,10 @@ module.exports = {
         ]
       }
     }],
+    "react/jsx-no-useless-fragment": [2],
+    "react/jsx-fragments": [2],
+    "react/jsx-key": [2, {"checkFragmentShorthand": true}],
+    "react/jsx-uses-react": [2],
 
     // https://www.npmjs.com/package/eslint-plugin-react-hooks
     "react-hooks/rules-of-hooks": "error",
