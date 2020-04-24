@@ -135,9 +135,7 @@ module.exports = {
     // http://eslint.org/docs/rules/no-throw-literal
     "no-throw-literal": 2,
     // http://eslint.org/docs/rules/no-unused-expressions
-    "no-unused-vars": [2, {
-      "ignoreRestSiblings": true
-    }],
+    "no-unused-expressions": 2,
     // http://eslint.org/docs/rules/no-useless-call
     "no-useless-call": 2,
     // http://eslint.org/docs/rules/no-void
@@ -172,7 +170,9 @@ module.exports = {
     // http://eslint.org/docs/rules/no-undef
     "no-undef": 2,
     // http://eslint.org/docs/rules/no-unused-vars
-    "no-unused-vars": 2,
+    "no-unused-vars": [2, {
+      "ignoreRestSiblings": true
+    }],
 
     /********************************************
      ************* Stylistic Issues *************
