@@ -261,6 +261,7 @@ module.exports = {
         "displayName",
         "mixins",
         "propTypes",
+        "defaultProps",
         "getDefaultProps",
         "getInitialState",
         "constructor",
