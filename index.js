@@ -244,7 +244,9 @@ module.exports = {
 
     "react/jsx-no-duplicate-props": 2,
     "react/jsx-uses-vars": 2,
-    "react/jsx-no-undef": 2,
+    "react/jsx-no-undef": [2, {
+      "allowGlobals": true
+    }],
     "react/jsx-boolean-value": [2, "never"],
     "react/jsx-no-target-blank": [2],
     "react/jsx-pascal-case": [2],
