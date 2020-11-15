@@ -1,6 +1,6 @@
 module.exports = {
   "plugins": ["react", "react-hooks", "prettier"],
-  "parser": "babel-eslint",
+  "parser": "@babel/eslint-parser",
   "parserOptions": {
     "sourceType": "script"
   },
