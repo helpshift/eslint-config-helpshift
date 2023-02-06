@@ -9,6 +9,7 @@ module.exports = {
       version: "16.10.2",
     },
   },
+  extends: ["./rules/errors"].map(require.resolve),
   env: {
     browser: true,
     amd: true,
@@ -17,38 +18,9 @@ module.exports = {
   rules: {
     "prettier/prettier": "error",
 
-    /********************************************/
-    /************* Possible Errors **************/
-    /********************************************/
-
     // Refer: https://eslint.org/docs/rules/<rule-name>
     // for more information on each rule.
     // E.g. https://eslint.org/docs/rules/no-cond-assign
-
-    "no-cond-assign": [2, "always"],
-    "no-console": 2,
-    "no-constant-condition": 2,
-    "no-control-regex": 2,
-    "no-debugger": 2,
-    "no-dupe-args": 2,
-    "no-dupe-keys": 2,
-    "no-duplicate-case": 2,
-    "no-empty-character-class": 2,
-    "no-empty": 2,
-    "no-ex-assign": 2,
-    "no-extra-boolean-cast": 2,
-
-    "no-func-assign": 2,
-    "no-inner-declarations": 2,
-    "no-invalid-regexp": 2,
-    "no-irregular-whitespace": 2,
-    "no-negated-in-lhs": 2,
-    "no-obj-calls": 2,
-    "no-regex-spaces": 2,
-    "no-sparse-arrays": 2,
-    "no-unreachable": 2,
-    "use-isnan": 2,
-    "valid-typeof": 2,
 
     /********************************************/
     /************** Best Practices **************/
