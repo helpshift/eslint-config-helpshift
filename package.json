@@ -14,6 +14,18 @@
     "eslint",
     "eslintconfig"
   ],
+  "exports": {
+    ".": "./index.js",
+    "./rules/best-practices": "./rules/best-practices",
+    "./rules/errors": "./rules/errors",
+    "./rules/es6": "./rules/es6",
+    "./rules/jsx": "./rules/jsx",
+    "./rules/prettier": "./rules/prettier",
+    "./rules/strict": "./rules/strict",
+    "./rules/stylistic": "./rules/stylistic",
+    "./rules/variables": "./rules/variables",
+    "./package.json": "./package.json"
+  },
   "author": {
     "name": "Helpshift Dev",
     "email": "dev@helpshift.com",
