@@ -9,7 +9,7 @@ module.exports = {
       version: "16.10.2",
     },
   },
-  extends: ["./rules/errors"].map(require.resolve),
+  extends: ["./rules/errors", "./rules/best-practices"].map(require.resolve),
   env: {
     browser: true,
     amd: true,
@@ -21,47 +21,6 @@ module.exports = {
     // Refer: https://eslint.org/docs/rules/<rule-name>
     // for more information on each rule.
     // E.g. https://eslint.org/docs/rules/no-cond-assign
-
-    /********************************************/
-    /************** Best Practices **************/
-    /********************************************/
-
-    "dot-notation": 2,
-
-    eqeqeq: 2,
-    "guard-for-in": 2,
-    "no-alert": 2,
-    "no-caller": 2,
-    "no-div-regex": 2,
-    "no-eval": 2,
-    "no-extend-native": 2,
-    "no-extra-bind": 2,
-    "no-fallthrough": 2,
-    "no-implied-eval": 2,
-    "no-iterator": 2,
-    "no-labels": 2,
-    "no-lone-blocks": 2,
-
-    "no-multi-str": 2,
-    "no-native-reassign": 2,
-    "no-new-func": 2,
-    "no-new-wrappers": 2,
-    "no-new": 2,
-    "no-octal-escape": 2,
-    "no-octal": 2,
-    "no-proto": 2,
-    "no-redeclare": 2,
-    "no-return-assign": 2,
-    "no-script-url": 2,
-    "no-self-compare": 2,
-    "no-sequences": 2,
-    "no-throw-literal": 2,
-    "no-unused-expressions": 2,
-    "no-useless-call": 2,
-    "no-void": 2,
-    "no-with": 2,
-    radix: 2,
-    "vars-on-top": 2,
 
     /********************************************/
     /**************** Strict Mode ***************/
