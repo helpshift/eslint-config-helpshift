@@ -15,6 +15,7 @@ module.exports = {
     "./rules/strict",
     "./rules/variables",
     "./rules/stylistic",
+    "./rules/es6",
   ].map(require.resolve),
   env: {
     browser: true,
@@ -27,16 +28,6 @@ module.exports = {
     // Refer: https://eslint.org/docs/rules/<rule-name>
     // for more information on each rule.
     // E.g. https://eslint.org/docs/rules/no-cond-assign
-
-    /********************************************/
-    /****************** ES6 *********************/
-    /********************************************/
-
-    "no-class-assign": 2,
-    "no-const-assign": 2,
-    "no-dupe-class-members": 2,
-    "prefer-const": 2,
-    "prefer-spread": 2,
 
     /********************************************/
     /*************** JSX Specific ***************/
