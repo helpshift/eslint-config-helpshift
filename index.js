@@ -9,9 +9,12 @@ module.exports = {
       version: "16.10.2",
     },
   },
-  extends: ["./rules/errors", "./rules/best-practices", "./rules/strict"].map(
-    require.resolve
-  ),
+  extends: [
+    "./rules/errors",
+    "./rules/best-practices",
+    "./rules/strict",
+    "./rules/variables",
+  ].map(require.resolve),
   env: {
     browser: true,
     amd: true,
@@ -23,22 +26,6 @@ module.exports = {
     // Refer: https://eslint.org/docs/rules/<rule-name>
     // for more information on each rule.
     // E.g. https://eslint.org/docs/rules/no-cond-assign
-
-    /********************************************/
-    /***************** Variables ****************/
-    /********************************************/
-
-    "no-delete-var": 2,
-    "no-shadow-restricted-names": 2,
-    "no-shadow": 2,
-    "no-undef-init": 2,
-    "no-undef": 2,
-    "no-unused-vars": [
-      2,
-      {
-        ignoreRestSiblings: true,
-      },
-    ],
 
     /********************************************/
     /************* Stylistic Issues *************/
