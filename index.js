@@ -9,7 +9,9 @@ module.exports = {
       version: "16.10.2",
     },
   },
-  extends: ["./rules/errors", "./rules/best-practices"].map(require.resolve),
+  extends: ["./rules/errors", "./rules/best-practices", "./rules/strict"].map(
+    require.resolve
+  ),
   env: {
     browser: true,
     amd: true,
@@ -21,12 +23,6 @@ module.exports = {
     // Refer: https://eslint.org/docs/rules/<rule-name>
     // for more information on each rule.
     // E.g. https://eslint.org/docs/rules/no-cond-assign
-
-    /********************************************/
-    /**************** Strict Mode ***************/
-    /********************************************/
-
-    strict: 2,
 
     /********************************************/
     /***************** Variables ****************/
