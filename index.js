@@ -1,8 +1,8 @@
 module.exports = {
   plugins: ["react", "react-hooks", "prettier"],
-  parser: "babel-eslint",
   parserOptions: {
     sourceType: "script",
+    ecmaVersion: 2020,
   },
   settings: {
     react: {
