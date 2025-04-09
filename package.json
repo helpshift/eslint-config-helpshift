@@ -31,7 +31,7 @@
     "email": "dev@helpshift.com",
     "url": "https://developers.helpshift.com"
   },
-  "license": "UNLICENSED",
+  "license": "MIT",
   "peerDependencies": {
     "eslint": "^9.24.0",
     "eslint-plugin-prettier": "^5.2.6",
