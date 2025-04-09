@@ -6,7 +6,7 @@ module.exports = {
   },
   settings: {
     react: {
-      version: "16.10.2",
+      version: "detect",
     },
   },
   // Refer: https://eslint.org/docs/rules/<rule-name>
