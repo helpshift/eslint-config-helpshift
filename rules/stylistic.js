@@ -13,12 +13,7 @@ module.exports = {
 
     "func-style": [2, "expression"],
 
-    "new-cap": [
-      2,
-      {
-        capIsNewExceptions: ["YUI"],
-      },
-    ],
+    "new-cap": 2,
 
     "no-array-constructor": 2,
     "no-lonely-if": 2,
