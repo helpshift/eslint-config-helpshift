@@ -16,7 +16,7 @@ module.exports = {
     "no-inner-declarations": 2,
     "no-invalid-regexp": 2,
     "no-irregular-whitespace": 2,
-    "no-negated-in-lhs": 2,
+    "no-unsafe-negation": 2,
     "no-obj-calls": 2,
     "no-regex-spaces": 2,
     "no-sparse-arrays": 2,

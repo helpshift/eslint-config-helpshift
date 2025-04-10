@@ -23,7 +23,7 @@ module.exports = {
     "no-array-constructor": 2,
     "no-lonely-if": 2,
     "no-nested-ternary": 2,
-    "no-new-object": 2,
+    "no-object-constructor": 2,
 
     "no-unneeded-ternary": 2,
 

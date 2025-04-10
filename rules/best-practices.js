@@ -15,7 +15,7 @@ module.exports = {
     "no-labels": 2,
     "no-lone-blocks": 2,
     "no-multi-str": 2,
-    "no-native-reassign": 2,
+    "no-global-assign": 2,
     "no-new-func": 2,
     "no-new-wrappers": 2,
     "no-new": 2,
