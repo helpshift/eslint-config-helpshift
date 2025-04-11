@@ -1,4 +1,5 @@
 module.exports = {
+  plugins: ["react", "react-hooks"],
   rules: {
     "react/jsx-no-duplicate-props": 2,
     "react/jsx-uses-vars": 2,

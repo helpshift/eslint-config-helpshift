@@ -1,5 +1,4 @@
 module.exports = {
-  plugins: ["react", "react-hooks", "prettier"],
   parserOptions: {
     sourceType: "script",
     ecmaVersion: 2020,
