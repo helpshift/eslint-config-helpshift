@@ -38,5 +38,8 @@
     "eslint-plugin-react": "^7.37.5",
     "eslint-plugin-react-hooks": "^5.2.0",
     "prettier": "^3.5.3"
+  },
+  "devDependencies": {
+    "@stylistic/eslint-plugin-js": "^4.2.0"
   }
 }
