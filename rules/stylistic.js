@@ -1,5 +1,4 @@
 module.exports = {
-  plugins: ["@stylistic/js"],
   rules: {
     // This rule is needed because prettier doesn't enforce curly braces when a
     // block contains only one statement
@@ -24,7 +23,7 @@ module.exports = {
     "no-unneeded-ternary": 2,
 
     // This rule is needed because prettier doesn't convert backticks to double quotes
-    "@stylistic/js/quotes": [
+    quotes: [
       2,
       "double",
       {
@@ -32,7 +31,7 @@ module.exports = {
       },
     ],
 
-    "@stylistic/js/spaced-comment": [
+    "spaced-comment": [
       2,
       "always",
       {
@@ -40,6 +39,6 @@ module.exports = {
       },
     ],
 
-    "@stylistic/js/max-len": [2, 100, 2],
+    "max-len": [2, 100, 2],
   },
 };
