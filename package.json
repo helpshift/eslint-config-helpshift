@@ -1,6 +1,6 @@
 {
   "name": "@helpshiftdev/eslint-config-hs",
-  "version": "1.0.13-open-source-eslint-config.0",
+  "version": "1.0.13-open-source-eslint-config.6",
   "description": "Shareable ESLINT config containing rules used at Helpshift.",
   "main": "index.js",
   "scripts": {
