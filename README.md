@@ -22,13 +22,13 @@ A shareable ESLint configuration that enforces a consistent JavaScript/React cod
 1. First, install the package along with its peer dependencies:
 
 ```bash
-npm install --save-dev @helpshiftdev/eslint-config-hs
+npm install --save-dev eslint-config-helpshift
 ```
 
 Or if you're using yarn:
 
 ```bash
-yarn add --dev @helpshiftdev/eslint-config-hs
+yarn add --dev eslint-config-helpshift
 ```
 
 ## Usage
@@ -37,7 +37,7 @@ Create or modify your `.eslintrc.js` file:
 
 ```js
 module.exports = {
-  extends: "@helpshiftdev/eslint-config-hs",
+  extends: "eslint-config-helpshift",
   // Your project-specific rules/overrides can go here
 };
 ```
@@ -46,7 +46,7 @@ Or if you're using JSON:
 
 ```json
 {
-  "extends": "@helpshiftdev/eslint-config-hs"
+  "extends": "eslint-config-helpshift"
 }
 ```
 
@@ -67,11 +67,11 @@ We recommend adding the following scripts to your `package.json`:
 
 There are several rules in the [`eslint:recommended` ruleset](http://eslint.org/docs/rules/) that Helpshift style is not opinionated about that you might want to enforce in your project.
 
-To use Helpshift style in conjunction with ESLint's recommended rule set, extend them both, making sure to list `@helpshiftdev/eslint-config-hs` last:
+To use Helpshift style in conjunction with ESLint's recommended rule set, extend them both, making sure to list `eslint-config-helpshift` last:
 
 ```js
 {
-  "extends": ["eslint:recommended", "@helpshiftdev/eslint-config-hs"],
+  "extends": ["eslint:recommended", "eslint-config-helpshift"],
   "rules": {
     // Additional, per-project rules...
   }
