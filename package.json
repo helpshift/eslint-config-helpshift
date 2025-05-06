@@ -8,11 +8,23 @@
   },
   "repository": {
     "type": "git",
-    "url": "ssh://gerrit/eslint-config.git"
+    "url": "https://github.com/helpshift/eslint-config-helpshift"
   },
   "keywords": [
     "eslint",
-    "eslintconfig"
+    "eslint-config",
+    "eslintconfig",
+    "helpshift",
+    "javascript",
+    "react",
+    "jsx",
+    "code-style",
+    "lint",
+    "prettier",
+    "eslint-rules",
+    "style-guide",
+    "code-quality",
+    "best-practices"
   ],
   "exports": {
     ".": "./index.js",
@@ -32,6 +44,10 @@
     "url": "https://developers.helpshift.com"
   },
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/helpshift/eslint-config-helpshift/issues"
+  },
+  "homepage": "https://github.com/helpshift/eslint-config-helpshift",
   "peerDependencies": {
     "eslint": ">= 7.0.0",
     "eslint-plugin-prettier": ">= 3.4.1",
