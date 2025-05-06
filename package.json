@@ -1,6 +1,6 @@
 {
-  "name": "@helpshiftdev/eslint-config-hs",
-  "version": "1.0.12",
+  "name": "eslint-config-helpshift",
+  "version": "2.0.0",
   "description": "Shareable ESLINT config containing rules used at Helpshift.",
   "main": "index.js",
   "scripts": {
@@ -14,20 +14,29 @@
     "eslint",
     "eslintconfig"
   ],
+  "exports": {
+    ".": "./index.js",
+    "./rules/best-practices": "./rules/best-practices",
+    "./rules/errors": "./rules/errors",
+    "./rules/es6": "./rules/es6",
+    "./rules/jsx": "./rules/jsx",
+    "./rules/prettier": "./rules/prettier",
+    "./rules/strict": "./rules/strict",
+    "./rules/stylistic": "./rules/stylistic",
+    "./rules/variables": "./rules/variables",
+    "./package.json": "./package.json"
+  },
   "author": {
     "name": "Helpshift Dev",
     "email": "dev@helpshift.com",
     "url": "https://developers.helpshift.com"
   },
-  "license": "UNLICENSED",
+  "license": "MIT",
   "peerDependencies": {
-    "eslint": ">= 5.6.1",
-    "prettier": ">= 1.13.0",
-    "eslint-plugin-react": ">= 7.10.0",
-    "eslint-plugin-react-hooks": ">= 2.1.2",
-    "eslint-plugin-prettier": ">= 3.1.1"
-  },
-  "dependencies": {
-    "babel-eslint": "10.0.3"
+    "eslint": ">= 7.0.0",
+    "eslint-plugin-prettier": ">= 3.4.1",
+    "eslint-plugin-react": ">= 7.21.0",
+    "eslint-plugin-react-hooks": ">= 4.0.0",
+    "prettier": ">= 2.0.5"
   }
 }
