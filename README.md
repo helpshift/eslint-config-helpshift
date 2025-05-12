@@ -19,7 +19,7 @@ A shareable ESLint configuration that enforces a consistent JavaScript/React cod
 
 ## Installation
 
-1. First, install the package along with its peer dependencies:
+First, install the package along with its peer dependencies:
 
 ```bash
 npm install --save-dev eslint-config-helpshift
