@@ -19,7 +19,7 @@ A shareable ESLint configuration that enforces a consistent JavaScript/React cod
 
 ## Installation
 
-1. First, install the package along with its peer dependencies:
+First, install the package along with its peer dependencies:
 
 ```bash
 npm install --save-dev eslint-config-helpshift
@@ -78,7 +78,7 @@ To use Helpshift style in conjunction with ESLint's recommended rule set, extend
 }
 ```
 
-To see how the `helpshift` config compares with `eslint:recommended`, refer to the [source code of `index.js`](https://github.com/helpshift/eslint-config-helpshift/blob/main/index.js), which lists every ESLint rule along with whether (and how) it is enforced by the `helpshift` config.
+To see how the `helpshift` config compares with `eslint:recommended`, refer to the [source code of index.js](https://github.com/helpshift/eslint-config-helpshift/blob/master/index.js), which lists every ESLint rule along with whether (and how) it is enforced by the `helpshift` config.
 
 ## Editor Integration
 
@@ -100,8 +100,8 @@ For the best experience, we recommend integrating ESLint with your editor:
 
 ## Contributing
 
-If you'd like to contribute to this ESLint config, please see our [Contributing Guidelines](CONTRIBUTING.md).
+If you'd like to contribute to this ESLint config, please see our [Contributing Guidelines](https://github.com/helpshift/eslint-config-helpshift/blob/master/CONTRIBUTING.md).
 
 ## License
 
-[MIT](LICENSE) © Helpshift
+[MIT](https://github.com/helpshift/eslint-config-helpshift/blob/master/LICENSE) © Helpshift
